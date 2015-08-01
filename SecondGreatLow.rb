@@ -1,5 +1,5 @@
 def SecondGreatLow(arr)
-  arr.uniq!
+  arr.uniq!.sort!
   return "#{arr[1]} #{arr[arr.size-2]}"    
 end
    
